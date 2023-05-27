@@ -23,7 +23,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
     <CssBaseline />
       <div className="App-header">
-        <h1>Text Chat</h1>
+        <h1>Roast Chat</h1>
       </div>
       <AppBody />
     </ThemeProvider>
@@ -31,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+

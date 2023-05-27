@@ -42,3 +42,4 @@ export async function fetchCompletion(props) {
       console.error('Error:', error);
     }
   }
+
