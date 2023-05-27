@@ -14,7 +14,7 @@ export default Api
 
 
 export async function fetchCompletion(props) {
-    const OPENAI_API_KEY = "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";
+    const OPENAI_API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
     const url = 'https://api.openai.com/v1/chat/completions';
   
     const headers = {

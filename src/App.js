@@ -7,9 +7,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 dotenv.config()
 
-console.log(process.env)
-console.log(process.env.OPENAI_API_KEY)
-
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
